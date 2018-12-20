@@ -1,0 +1,23 @@
+@import 'RESOURCES/scss/global.scss';
+
+// TODO: Consider making values SCSS variables, review viewport scaling
+.tile {
+	position: relative;
+	width: auto;
+	height: 300px;
+
+	.tile-background {
+		height: 100%;
+		width: 100%;
+	}
+
+	.tile-title {
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding: 5px;
+		width: 50px;
+		background-color: transparentize($tertiaryColor, 0.2);
+		text-align: center;
+	}
+}

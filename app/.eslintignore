@@ -1,0 +1,9 @@
+node_modules/*
+/dist
+.vscode/**/*
+docs/**/*
+.history/**/*
+npm-debug.log
+coverage/**/*
+storybook-static/**/*
+webpack.config.js
