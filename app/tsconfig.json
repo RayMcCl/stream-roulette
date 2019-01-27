@@ -1,0 +1,39 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"jsx": "react",
+		"module": "commonjs",
+		"baseUrl": ".",
+		"declaration": false,
+		"sourceMap": true,
+		"experimentalDecorators": true,
+		"paths": {
+			"COMPONENTS/*": [ "src/components/*" ],
+			"HELPERS/*": [ "src/helpers/*" ],
+			"REDUCERS/*": [ "src/store/reducers/*" ],
+			"RESOURCES/*": [ "src/resources/*" ],
+			"ROUTES/*": [ "src/routes/*" ],
+			"SERVICES/*": [ "src/services/*" ],
+			"STRUCTS/*": [ "src/structs/*" ],
+			"STORE/*": [ "src/store/*" ],
+			// Test Aliasing
+			"TCOMPONENTS/*": [ "tests/components/*"],
+			"THELPERS/*": [ "tests/helpers/*" ],
+			"TREDUCERS/*": [ "tests/store/reducers/*" ],
+			"TRESOURCES/*": [ "tests/resources/*" ],
+			"TROUTES/*": [ "tests/routes/*" ],
+			"TSERVICES/*": [ "tests/services/*" ],
+			"TSTRUCTS/*": [ "tests/structs/*" ],
+			"TSTORE/*": [ "tests/store/*" ],
+		}
+	},
+	"include": [
+		"types/**/*",
+		"src/**/*",
+		"tests/**/*"
+	],
+	"exclude": [
+		"node_modules",
+		"templates"
+	]
+}

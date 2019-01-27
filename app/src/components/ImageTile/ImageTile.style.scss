@@ -1,0 +1,11 @@
+@import '~RESOURCES/scss/variables.scss';
+
+.image-tile {
+	border: 1px solid $primary-border;
+	height: 200px;
+	width: 150px;
+
+	.image {
+		width: 100%;
+	}
+}
